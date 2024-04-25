@@ -1,4 +1,4 @@
-- Deploy [click here](https://quizzi.vercel.app/)
+- Deploy [click here](https://quizziao.vercel.app/)
 
 # Quizzi solution
 
