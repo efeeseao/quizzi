@@ -1,0 +1,322 @@
+{
+    "quizzes": [
+        {
+            "title": "Git",
+            "icon": "./assets/images/icon-git.svg",
+            "questions": [
+                {
+                    "question": "Qual comando é usado para criar uma nova branch no Git?",
+                    "options": [
+                        "git branch",
+                        "git checkout",
+                        "git merge",
+                        "git clone"
+                    ],
+                    "answer": "git branch"
+                },
+                {
+                    "question": "O que o comando 'git status' faz?",
+                    "options": [
+                        "Exibe o histórico de commits.",
+                        "Mostra as diferenças entre o diretório de trabalho e o repositório.",
+                        "Remove arquivos do repositório local.",
+                        "Sincroniza o repositório local com o remoto."
+                    ],
+                    "answer": "Mostra as diferenças entre o diretório de trabalho e o repositório."
+                },
+                {
+                    "question": "Como desfazer o último commit no Git, mantendo as alterações no diretório de trabalho?",
+                    "options": [
+                        "git reset HEAD~1",
+                        "git checkout HEAD~1",
+                        "git revert HEAD",
+                        "git commit --amend"
+                    ],
+                    "answer": "git reset HEAD~1"
+                },
+                {
+                    "question": "Qual comando é usado para enviar alterações do repositório local para o repositório remoto no Git?",
+                    "options": [
+                        "git fetch",
+                        "git pull",
+                        "git push",
+                        "git merge"
+                    ],
+                    "answer": "git push"
+                },
+                {
+                    "question": "O que é um conflito de merge no Git?",
+                    "options": [
+                        "Uma situação em que duas branches têm alterações incompatíveis.",
+                        "Uma operação que une duas branches sem problemas.",
+                        "Um erro fatal que corrompe o repositório.",
+                        "Uma mensagem de erro comum durante o push."
+                    ],
+                    "answer": "Uma situação em que duas branches têm alterações incompatíveis."
+                },
+                {
+                    "question": "Qual é o objetivo do comando 'git clone'?",
+                    "options": [
+                        "Criar uma nova branch.",
+                        "Clonar um repositório remoto para o local.",
+                        "Excluir um repositório local.",
+                        "Enviar alterações para o repositório remoto."
+                    ],
+                    "answer": "Clonar um repositório remoto para o local."
+                },
+                {
+                    "question": "Qual comando é usado para visualizar o histórico de commits no Git?",
+                    "options": [
+                        "git history",
+                        "git log",
+                        "git show",
+                        "git diff"
+                    ],
+                    "answer": "git log"
+                },
+                {
+                    "question": "Como você pode desfazer todas as alterações não commitadas no Git?",
+                    "options": [
+                        "git reset",
+                        "git checkout",
+                        "git revert",
+                        "git clean"
+                    ],
+                    "answer": "git reset"
+                },
+                {
+                    "question": "Qual comando é usado para criar e mudar para uma nova branch em um único passo?",
+                    "options": [
+                        "git branch -b",
+                        "git checkout -b",
+                        "git create branch",
+                        "git new branch"
+                    ],
+                    "answer": "git checkout -b"
+                },
+                {
+                    "question": "O que o comando 'git pull' faz?",
+                    "options": [
+                        "Envia alterações do repositório local para o remoto.",
+                        "Atualiza o repositório local com as alterações do remoto.",
+                        "Mescla uma branch com a branch atual.",
+                        "Desfaz o último commit."
+                    ],
+                    "answer": "Atualiza o repositório local com as alterações do remoto."
+                }
+            ]
+        },
+        {
+            "title": "GitHub",
+            "icon": "./assets/images/icon-github.svg",
+            "questions": [
+                {
+                    "question": "Qual é o nome da funcionalidade do GitHub que permite aos usuários propor alterações em um repositório?",
+                    "options": [
+                        "Pull Requests",
+                        "Issues",
+                        "Forks",
+                        "Commits"
+                    ],
+                    "answer": "Pull Requests"
+                },
+                {
+                    "question": "Como você pode colaborar em um projeto do GitHub sem ter permissão de escrita no repositório original?",
+                    "options": [
+                        "Fazendo um fork do repositório original.",
+                        "Solicitando acesso de escrita ao proprietário do repositório.",
+                        "Enviando um e-mail para o suporte do GitHub.",
+                        "Baixando o código e enviando por e-mail para o mantenedor do projeto."
+                    ],
+                    "answer": "Fazendo um fork do repositório original."
+                },
+                {
+                    "question": "O que são GitHub Actions?",
+                    "options": [
+                        "Uma funcionalidade para automatizar fluxos de trabalho.",
+                        "Um sistema de mensagens privadas entre colaboradores.",
+                        "Uma ferramenta para rastrear bugs no código.",
+                        "Um recurso para editar arquivos diretamente no navegador."
+                    ],
+                    "answer": "Uma funcionalidade para automatizar fluxos de trabalho."
+                },
+                {
+                    "question": "Como você pode adicionar um README.md a um repositório do GitHub?",
+                    "options": [
+                        "Automaticamente, quando o repositório é criado.",
+                        "Enviando um arquivo README.md através do website.",
+                        "Usando o comando 'git readme' no terminal.",
+                        "Não é possível adicionar um README.md no GitHub."
+                    ],
+                    "answer": "Enviando um arquivo README.md através do website."
+                },
+                {
+                    "question": "O que é um 'GitHub Gist'?",
+                    "options": [
+                        "Um tipo especial de repositório com suporte a múltiplas linguagens.",
+                        "Uma coleção de trechos de código ou notas, compartilhados publicamente.",
+                        "Um recurso exclusivo para empresas assinantes do GitHub Enterprise.",
+                        "Um plugin para integrar o GitHub ao Visual Studio Code."
+                    ],
+                    "answer": "Uma coleção de trechos de código ou notas, compartilhados publicamente."
+                },
+                {
+                    "question": "Qual é a finalidade do arquivo '.gitignore' em um repositório do GitHub?",
+                    "options": [
+                        "Ignorar todos os arquivos no repositório.",
+                        "Listar todos os colaboradores do repositório.",
+                        "Especificar os arquivos que devem ser ignorados pelo Git.",
+                        "Definir as permissões de acesso ao repositório."
+                    ],
+                    "answer": "Especificar os arquivos que devem ser ignorados pelo Git."
+                },
+                {
+                    "question": "Como você pode reverter um commit específico no GitHub?",
+                    "options": [
+                        "Excluindo manualmente as alterações no código.",
+                        "Usando o comando 'git undo'.",
+                        "Criando um novo commit com as alterações revertidas.",
+                        "Usando a funcionalidade 'Revert' no GitHub."
+                    ],
+                    "answer": "Usando a funcionalidade 'Revert' no GitHub."
+                },
+                {
+                    "question": "O que são os 'GitHub Actions'?",
+                    "options": [
+                        "Ferramentas para automatizar tarefas no GitHub.",
+                        "Funcionalidades para monitorar o tráfego do repositório.",
+                        "Um sistema de mensagens privadas entre colaboradores.",
+                        "Integrações com outras plataformas de desenvolvimento."
+                    ],
+                    "answer": "Ferramentas para automatizar tarefas no GitHub."
+                },
+                {
+                    "question": "Qual é a finalidade de um 'Fork' no GitHub?",
+                    "options": [
+                        "Criar uma nova branch no repositório.",
+                        "Clonar um repositório para a sua conta.",
+                        "Enviar propostas de alterações para um repositório.",
+                        "Solicitar acesso de escrita a um repositório."
+                    ],
+                    "answer": "Clonar um repositório para a sua conta."
+                },
+                {
+                    "question": "Qual é o nome da funcionalidade do GitHub que permite aos usuários propor alterações em um repositório?",
+                    "options": [
+                        "Pull Requests",
+                        "Issues",
+                        "Forks",
+                        "Commits"
+                    ],
+                    "answer": "Pull Requests"
+                }
+            ]
+        },
+        {
+            "title": "Logica",
+            "icon": "./assets/images/icon-logic.svg",
+            "questions": [
+                {
+                    "question": "O que é um loop 'while' na programação?",
+                    "options": [
+                        "Uma estrutura para executar um bloco de código uma única vez.",
+                        "Um tipo de loop usado apenas em linguagens orientadas a objetos.",
+                        "Uma instrução para repetir um bloco de código enquanto uma condição é verdadeira.",
+                        "Uma função para calcular o valor absoluto de um número."
+                    ],
+                    "answer": "Uma instrução para repetir um bloco de código enquanto uma condição é verdadeira."
+                },
+                {
+                    "question": "Qual é a finalidade do operador '&&' em JavaScript?",
+                    "options": [
+                        "Comparar dois valores e retornar verdadeiro se ambos forem verdadeiros.",
+                        "Concatenar duas strings.",
+                        "Subtrair um valor de outro.",
+                        "Definir uma função anônima."
+                    ],
+                    "answer": "Comparar dois valores e retornar verdadeiro se ambos forem verdadeiros."
+                },
+                {
+                    "question": "O que é uma variável do tipo booleano?",
+                    "options": [
+                        "Uma variável que armazena números inteiros.",
+                        "Uma variável que armazena textos.",
+                        "Uma variável que armazena valores verdadeiro/falso.",
+                        "Uma variável que armazena arrays."
+                    ],
+                    "answer": "Uma variável que armazena valores verdadeiro/falso."
+                },
+                {
+                    "question": "Qual é a diferença entre '==' e '===' em JavaScript?",
+                    "options": [
+                        "'==' compara apenas os valores, enquanto '===' compara os valores e os tipos de dados.",
+                        "'==' é usado para atribuição, enquanto '===' é usado para comparação.",
+                        "'==' compara os valores e os tipos de dados, enquanto '===' compara apenas os valores.",
+                        "'==' e '===' são equivalentes e podem ser usados de forma intercambiável."
+                    ],
+                    "answer": "'==' compara apenas os valores, enquanto '===' compara os valores e os tipos de dados."
+                },
+                {
+                    "question": "O que é um array na programação?",
+                    "options": [
+                        "Uma estrutura de controle para tomar decisões.",
+                        "Um tipo de dado que armazena uma coleção de elementos do mesmo tipo.",
+                        "Um tipo de loop específico para processar elementos de uma lista.",
+                        "Uma função para ordenar elementos em ordem alfabética."
+                    ],
+                    "answer": "Um tipo de dado que armazena uma coleção de elementos do mesmo tipo."
+                },
+                {
+                    "question": "Qual é a finalidade da declaração 'return' em uma função?",
+                    "options": [
+                        "Parar a execução do programa.",
+                        "Imprimir um valor na tela.",
+                        "Indicar o início de um bloco de código.",
+                        "Retornar um valor específico da função."
+                    ],
+                    "answer": "Retornar um valor específico da função."
+                },
+                {
+                    "question": "Qual é a diferença entre uma função e uma variável na programação?",
+                    "options": [
+                        "Funções são usadas para armazenar valores, enquanto variáveis são usadas para definir ações.",
+                        "Funções são chamadas de métodos em algumas linguagens de programação.",
+                        "Variáveis armazenam valores temporários, enquanto funções executam tarefas específicas.",
+                        "Variáveis são usadas apenas em loops, enquanto funções são usadas para condicionais."
+                    ],
+                    "answer": "Variáveis armazenam valores temporários, enquanto funções executam tarefas específicas."
+                },
+                {
+                    "question": "O que é um comentário em programação?",
+                    "options": [
+                        "Uma instrução para o compilador ignorar uma parte do código.",
+                        "Um erro de sintaxe no código.",
+                        "Uma função que exibe mensagens de erro durante a execução do programa.",
+                        "Uma variável usada para armazenar texto."
+                    ],
+                    "answer": "Uma instrução para o compilador ignorar uma parte do código."
+                },
+                {
+                    "question": "Qual é o objetivo de um loop 'for' na programação?",
+                    "options": [
+                        "Executar uma ação apenas uma vez.",
+                        "Executar uma ação enquanto uma condição for verdadeira.",
+                        "Executar uma ação um número específico de vezes.",
+                        "Executar uma ação com base em uma expressão booleana."
+                    ],
+                    "answer": "Executar uma ação um número específico de vezes."
+                },
+                {
+                    "question": "O que é um 'if statement' na programação?",
+                    "options": [
+                        "Um tipo de loop usado para repetir ações.",
+                        "Uma declaração usada para definir uma função.",
+                        "Uma estrutura de controle usada para tomar decisões com base em uma condição.",
+                        "Um tipo de variável que armazena valores booleanos."
+                    ],
+                    "answer": "Uma estrutura de controle usada para tomar decisões com base em uma condição."
+                }
+            ]
+        }
+    ]
+}
