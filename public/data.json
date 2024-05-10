@@ -317,6 +317,112 @@
                     "answer": "Uma estrutura de controle usada para tomar decisões com base em uma condição."
                 }
             ]
+        },
+        {
+        	"title": "Nodejs",
+            "icon": "./assets/images/nodejs.svg",
+            "questions": [
+                {
+                    "question": "Qual é o mecanismo de execução assíncrona padrão em Node.js?",
+                    "options": [
+                    "Promises",
+                    "Callbacks",
+                    "Async/Await",
+                    "Generators"
+                    ],
+                    "answer": "Callbacks"
+                },
+                {
+                    "question": "Como você instala pacotes de terceiros em um projeto Node.js?",
+                    "options": [
+                    "npm install",
+                    "npm add",
+                    "npm update",
+                    "npm download"
+                    ],
+                    "answer": "npm install"
+                },
+                {
+                    "question": "O que é o npm e qual é a sua função em um projeto Node.js?",
+                    "options": [
+                    "Node Package Manager, gerencia pacotes e dependências do projeto",
+                    "Node Project Manager, gerencia o fluxo de trabalho do projeto",
+                    "Node Package Manager, cria novos projetos Node.js",
+                    "Node Package Manager, compila o código do projeto"
+                    ],
+                    "answer": "Node Package Manager, gerencia pacotes e dependências do projeto"
+                },
+                {
+                    "question": "Qual é a principal diferença entre o modelo de entrada e saída de I/O síncrono e assíncrono em Node.js?",
+                    "options": [
+                    "A sincronia dos eventos",
+                    "A velocidade de execução",
+                    "A ordem de execução das operações",
+                    "A capacidade de realizar múltiplas operações simultaneamente"
+                    ],
+                    "answer": "A capacidade de realizar múltiplas operações simultaneamente"
+                },
+                {
+                    "question": "Qual é a principal vantagem de usar o Express.js em conjunto com o Node.js?",
+                    "options": [
+                    "Facilita a manipulação de bancos de dados relacionais",
+                    "Fornece uma camada de abstração para rotas, middleware e manipulação de solicitações/respostas HTTP",
+                    "Melhora a performance do servidor Node.js",
+                    "Simplifica a sintaxe de JavaScript"
+                    ],
+                    "answer": "Fornece uma camada de abstração para rotas, middleware e manipulação de solicitações/respostas HTTP"
+                },
+                {
+                    "question": "Como você lida com erros assíncronos em Node.js?",
+                    "options": [
+                    "Usando try...catch",
+                    "Usando callbacks de erro",
+                    "Usando a função onError()",
+                    "Usando o módulo 'error-handler'"
+                    ],
+                    "answer": "Usando callbacks de erro"
+                },
+                {
+                    "question": "O que é um módulo em Node.js e como você pode criar um?",
+                    "options": [
+                    "Um arquivo JavaScript que encapsula funcionalidades e pode ser reutilizado em outros arquivos",
+                    "Uma função JavaScript que executa uma tarefa específica",
+                    "Um pacote npm instalado no projeto",
+                    "Um objeto JavaScript que contém variáveis e métodos"
+                    ],
+                    "answer": "Um arquivo JavaScript que encapsula funcionalidades e pode ser reutilizado em outros arquivos"
+                },
+                {
+                    "question": "Qual é a principal vantagem de usar o Express.js em conjunto com o Node.js?",
+                    "options": [
+                    "Facilita a manipulação de bancos de dados relacionais",
+                    "Fornece uma camada de abstração para rotas, middleware e manipulação de solicitações/respostas HTTP",
+                    "Melhora a performance do servidor Node.js",
+                    "Simplifica a sintaxe de JavaScript"
+                    ],
+                    "answer": "Fornece uma camada de abstração para rotas, middleware e manipulação de solicitações/respostas HTTP"
+                },
+                {
+                    "question": "O que é o 'require' em Node.js e como você o utiliza em seus projetos?",
+                    "options": [
+                    "Um método para importar módulos e pacotes em um arquivo JavaScript, usando caminhos relativos ou absolutos",
+                    "Um comando para iniciar um novo projeto Node.js",
+                    "Um método para declarar variáveis em JavaScript",
+                    "Um comando para criar um novo arquivo JavaScript"
+                    ],
+                    "answer": "Um método para importar módulos e pacotes em um arquivo JavaScript, usando caminhos relativos ou absolutos"
+                },
+                {
+                    "question": "Explique o conceito de 'event loop' em Node.js e como ele funciona.",
+                    "options": [
+                    "O event loop é um mecanismo que permite a execução de operações assíncronas de forma não bloqueante. Funciona mantendo uma lista de operações de I/O, eventos e tarefas agendadas, executando-as em ordem de ocorrência.",
+                    "O event loop é um processo separado que gerencia a concorrência em Node.js. Funciona alocando recursos de CPU para várias operações de forma eficiente.",
+                    "O event loop é um tipo de middleware usado para lidar com solicitações HTTP em servidores Node.js. Funciona processando solicitações em fila e distribuindo-as entre os trabalhadores do servidor.",
+                    "O event loop é um conceito abstrato usado para representar a ordem de execução de funções assíncronas em Node.js. Funciona atribuindo prioridades a diferentes operações com base na sua complexidade."
+                    ],
+                    "answer": "O event loop é um mecanismo que permite a execução de operações assíncronas de forma não bloqueante. Funciona mantendo uma lista de operações de I/O, eventos e tarefas agendadas, executando-as em ordem de ocorrência."
+                }
+            ]
         }
     ]
 }
