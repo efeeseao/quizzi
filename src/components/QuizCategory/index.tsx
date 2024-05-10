@@ -56,6 +56,20 @@ const QuizCategory = ({ title, goToQuestion }: QuizCategoryProps) => {
           <p>Lógica de Programação</p>
         </>
       ) : null}
+
+      {title === "Nodejs" ? (
+        <>
+          <div className="w-14 h-14 rounded-lg bg-[#FFF1E9] flex items-center justify-center">
+            <Image
+              src={"/assets/nodejs.svg"}
+              width={40}
+              height={40}
+              alt=""
+            />
+          </div>
+          <p>Nodejs</p>
+        </>
+      ) : null}
     </button>
   );
 };

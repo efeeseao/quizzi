@@ -1,5 +1,5 @@
 interface QuizCategoryProps {
-  title: "Git" | "Github" | "Logica"
+  title: "Git" | "Github" | "Logica" | "Nodejs"
   goToQuestion: () => void;
 }
 

@@ -13,6 +13,7 @@ const MenuComponent = ({ goToQuestion }: MenuComponentProps) => {
         <QuizCategory goToQuestion={goToQuestion} title="Git" />
         <QuizCategory goToQuestion={goToQuestion} title="Github" />
         <QuizCategory goToQuestion={goToQuestion} title="Logica" />
+        <QuizCategory goToQuestion={goToQuestion} title="Nodejs" />
       </div>
     </div>
   );

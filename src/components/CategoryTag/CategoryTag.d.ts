@@ -1,6 +1,6 @@
 interface CategoryTagProps {
   showCategory?: boolean;
-  title: "Git" | "Github" | "Logica"
+  title: "Git" | "Github" | "Logica" | "Nodejs"
 }
 
 export { CategoryTagProps };

@@ -18,7 +18,7 @@ const QuestionComponent = () => {
     if (!loading) {
       setQuestions(quizzes[0].questions);
     }
-  }, [loading])
+  }, [loading, quizzes])
 
   return (
     <>

@@ -64,6 +64,26 @@ const CategoryTag = ({ showCategory, title }: CategoryTagProps) => {
           </div>
         </>
       ) : null}
+
+      {showCategory !== undefined && title === "Nodejs" ? ( 
+        <>
+          <div
+            className={`${style.container} text-color HeadingS flex items-center gap-6`}
+          >
+            <div
+              className={`${style.wrapper_icon} w-14 h-14 bg-[#E0FDEF] rounded-lg flex items-center justify-center`}
+            >
+              <Image
+                src={"/assets/nodejs.svg"}
+                width={40}
+                height={40}
+                alt="icon nodejs"
+              />
+            </div>
+            <p className={`${style.p}`}>Nodejs</p>
+          </div>
+        </>
+      ) : null}
     </>
   );
 };
